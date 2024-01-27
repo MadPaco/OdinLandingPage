@@ -7,6 +7,21 @@ body {
     justify-content: space-evenly;
     flex: 1;
     align-items: center;
+    background-color: #1F2937;
+}
+
+#heroHeading, 
+#heroText {
+    color: #fff;
+}
+
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
 }
 
 .container {
@@ -20,4 +35,28 @@ body {
     gap: 10px;
     padding-left: 0px;
     justify-content: flex-end;
+}
+
+#headerLogo,
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.infoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+.infoCard{
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+}
+
+.informationSection{
+    text-align: center;
 }
