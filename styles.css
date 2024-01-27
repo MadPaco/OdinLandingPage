@@ -60,3 +60,22 @@ a {
 .informationSection{
     text-align: center;
 }
+
+.quoteSection{
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote{
+    font-size: 36px;
+    margin: 0px;
+}
+
+.quoteSource{
+    font-size: 24px;
+    text-align: right;
+    margin: 0px;
+}
