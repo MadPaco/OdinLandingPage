@@ -4,15 +4,32 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex: 1;
     align-items: center;
     background-color: #1F2937;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.heroContainer{
+    margin-right: 60px;
+    width: 400px;
+    height: auto;
+}
+#heroText{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 #heroHeading, 
 #heroText {
     color: #fff;
+}
+
+#heroHeading {
+    font-size: 48px;
+    margin: 0px;
+    color: #f9faf8;
 }
 
 .hero{
@@ -21,7 +38,7 @@ body {
     flex: 1;
     justify-content: center;
     gap: 30px;
-    padding: 40px;
+    padding: 100px;
 }
 
 .container {
@@ -47,7 +64,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 150px;
+    padding: 0px 250px 100px 250px;
 }
 
 .infoCard{
@@ -84,14 +101,20 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 150px 100px 150px 100px;
 }
 
 .actionCard{
     display: flex;
-    padding: 30px;
+    padding: 30px 100px 30px 100px;
     text-align: center;
+    flex:1;
     background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    width: 00px;
+    height: 100px;
 }
 
 .footer{
@@ -99,5 +122,48 @@ a {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
+    padding: 30px;
+}
+
+.singUpButton{
+    background-color: #3882F6;
+    width: 150px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+    margin-top: 10px;
+}
+
+.infoImage{
+    border-radius: 15px;
+}
+
+.actionCardText{
+    text-align: left;
+    color: white;
+}
+
+h2,
+h3, 
+p {
+    margin: 0px;
+}
+
+#actionButton{
+    background-color: #3882F6;
+    border-color: white;
+    width: 150px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 30px;
 }
