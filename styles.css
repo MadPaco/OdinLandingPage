@@ -1,0 +1,23 @@
+body {
+    margin-top: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+    padding-left: 0px;
+    justify-content: flex-end;
+}
